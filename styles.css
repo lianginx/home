@@ -1,0 +1,65 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+a {
+  color: currentColor;
+  font-weight: bold;
+}
+
+.main {
+  width: 70rem;
+  margin: 4rem 2rem;
+  position: relative;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.top-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-right: 0.5rem;
+}
+
+.top-right a {
+  margin-bottom: 0.5rem;
+}
+
+.logo {
+  width: 10rem;
+  height: 10rem;
+}
+
+.title {
+  margin-top: 2rem;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.info {
+  font-family: "LXGW WenKai", sans-serif;
+  text-align-last: auto;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+}
+
+.icon {
+  margin-right: 0.6rem;
+  font-size: 2.4rem;
+}
