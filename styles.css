@@ -43,14 +43,13 @@ a {
 }
 
 .title {
-  margin-top: 2rem;
+  margin: 1rem 0;
   font-size: 3rem;
   font-weight: bold;
 }
 
 .info {
   font-family: "LXGW WenKai", sans-serif;
-  text-align-last: auto;
 }
 
 .contact {
@@ -62,4 +61,17 @@ a {
 .icon {
   margin-right: 0.6rem;
   font-size: 2.4rem;
+}
+
+blockquote {
+  margin: 0;
+  background: #f5f5f5;
+  padding: 1rem;
+  padding-left: 2rem;
+  border-left: #ccc solid 0.8rem;
+}
+
+ul,
+ol {
+  margin: 1rem 0;
 }
