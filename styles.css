@@ -75,3 +75,14 @@ ul,
 ol {
   margin: 1rem 0;
 }
+
+.filing a {
+  color: #999;
+  font-size: 1.2rem;
+  margin-top: 2rem;
+  margin-right: 0.5rem;
+}
+
+.filing a:hover {
+  color: #666;
+}
